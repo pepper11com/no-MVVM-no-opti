@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ModulerApp" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.PokeDexMVVM" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#003F53</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_100tb</item>
+        <item name="windowSplashScreenAnimationDuration">800</item>
+        <item name="postSplashScreenTheme">@style/Theme.PokeDexMVVM</item>
+    </style>
+</resources>
